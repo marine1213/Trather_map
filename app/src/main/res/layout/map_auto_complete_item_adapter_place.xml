@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/auto_complete_bg_place"
+    android:paddingLeft="@dimen/pad_left_place_auto_complete_view"
+    android:paddingRight="@dimen/pad_right_place_auto_complete_view">
+
+    <TextView
+        android:id="@+id/tv_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:textSize="@dimen/place_auto_complete_tv_primary_size"
+        android:textColor="@color/auto_complete_tv_place_item_primary"/>
+    <TextView
+        android:id="@+id/tv_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/place_auto_complete_tv_secondary_size"
+        android:textColor="@color/auto_complete_tv_place_item_secondary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/place_auto_complete_tv_seperate_size"
+        android:background="@color/auto_complete_bg_place_item_seperate"/>
+</LinearLayout>
